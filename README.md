@@ -15,9 +15,9 @@ https://ryuichiueda.github.io/robosys2019/lesson7.html
 make  
 sudo insmod myled.ko  
 sudo chmod 666 /dev/myled0  
-echo 0 /dev/myled0 で消灯  
-echo 1 /dev/myled0 で点灯  
-echo 2 /dev/myled0 で点滅する  
+echo 0 /dev/myled0 →LEDが消灯  
+echo 1 /dev/myled0 →LEDが点灯  
+echo 2 /dev/myled0 →LEDが点滅  
 
 これの実行結果はyoutubeにアップロードされている.
 youtube（デモ動画）のリンクはこちら  
