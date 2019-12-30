@@ -12,12 +12,12 @@ LEDを点灯させるためにデバイスドライバを作成する.参考に�
 https://ryuichiueda.github.io/robosys2019/lesson7.html
 
 コマンドの手順は以下のとおりである.
-make
-sudo insmod myled.ko
-sudo chmod 666 /dev/myled0
-echo 0 /dev/myled0 で消灯
-echo 1 /dev/myled0 で点灯
-echo 2 /dev/myled0 で点滅する
+make  
+sudo insmod myled.ko  
+sudo chmod 666 /dev/myled0  
+echo 0 /dev/myled0 で消灯  
+echo 1 /dev/myled0 で点灯  
+echo 2 /dev/myled0 で点滅する  
 
 これの実行結果はyoutubeにアップロードされている.
 youtube（デモ動画）のリンクはこちら
