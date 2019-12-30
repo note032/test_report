@@ -4,7 +4,7 @@
 このプログラムを実行するために必要なもの  
 ・LED  
 ・抵抗  
-・raspberrypi 3  
+・Raspberry Pi 3  
 ・ジャンプワイヤー  
 ・c言語  
 
